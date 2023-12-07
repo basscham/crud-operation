@@ -28,7 +28,7 @@ const schemaData = mongoose.Schema({
 const userModel = mongoose.model("user",schemaData)
 
 // Connecting to MongoDB
-mongoose.connect("mongodb+srv://sheikhebrima050:HzpGzNKw8fO6XnL8@cluster0.t2d4x0e.mongodb.net/crudoperation")
+mongoose.connect("mongodb+srv://sheikhebrima050:HzpGzNKw8fO6XnL8@cluster0.t2d4x0e.mongodb.net/")
 .then(() => { console.log(`connected to MongoDB`) })
 .catch((err) => {console.log(err)})
 
