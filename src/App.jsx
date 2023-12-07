@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import './App.css';
 import axios from "axios";
 
-axios.defaults.baseURL = "http://localhost:8080/";
+axios.defaults.baseURL = "https://backend-kj0g.onrender.com";
 
 function App() {
   const [addSection, setAddSection] = useState(false);
